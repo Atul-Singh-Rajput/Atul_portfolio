@@ -77,7 +77,7 @@ function SkillCategory({
       >
         <motion.div
           className="h-full rounded-full"
-          style={{ background: `linear-gradient(90deg, ${color}, transparent)` }}
+        
           initial={{ scaleX: 0 }}
           animate={isInView ? { scaleX: 1 } : {}}
           transition={{ duration: 1, delay: index * 0.08 + 0.3, ease: "easeOut" }}
